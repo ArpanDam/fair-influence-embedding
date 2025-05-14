@@ -1,5 +1,6 @@
 # fair-influence-embedding
-This code is implementation of Fair2vec for the paper titled "Topic Aware fair embedding".
+This code is implementation of Fair2vec for the paper titled "Fair2Vec: Learning Fair and Topic-Aware
+ Representations for Influencer Recommendation".
 
 network.py is the multitask learning model. It is trained for each badge and the saved model for each badge is stored in the folder "saved model".
 

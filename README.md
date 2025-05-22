@@ -2,7 +2,7 @@
 This code is implementation of Fair2vec for the paper titled "Fair2Vec: Learning Fair and Topic-Aware
  Representations for Influencer Recommendation".
 
-network.py is the multitask learning model. It is trained for each topic and the saved model for each topic is stored in the folder "saved model".
+MTLv3.py is the multitask learning model. It is trained for each topic and the saved model for each topic is stored in the folder "saved model". Here it is trained for a single topic and gives the TSNE plot of the embedding of the influencers clustered by fairness and influence capacity 
 
 probability_of_influence.py file calculates the topic wise probality of influence between the influencer and follower.
 it applies the sigmoid function on the dot product of influencer and follower embedding and calculates the probality of influence and store the topic wise probablity in the

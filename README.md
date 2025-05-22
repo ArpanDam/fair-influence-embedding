@@ -16,9 +16,9 @@ Run `python tag_finder.py' to find top 5 influencial members and top 2 influence
 
 Run `python tag_finder.py number_of_influencial_users number_of_influence_tags' to get the output as top-k influencial nodes and top-r influence topics.
 
-To train the model again -> Run `network.py'
+To train the model again -> Run `MTLv3.py'
 
-To complete the entire process of training the model, finding probablity of influence and find the top fair influencers and top topics - Run python network.py && python probability_of_influence.py && python tag_finder.py
+To complete the entire process of training the model, finding probablity of influence and find the top fair influencers and top topics - Run python MTLv3.py && python probability_of_influence.py && python tag_finder.py
 
 A dummy data is provided on which this code is implemented
 
